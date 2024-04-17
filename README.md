@@ -20,9 +20,12 @@ You can install OpenCV from source or use a pre-built package depending on your 
 Clone the Repository:
 
 Clone this repository to your local machine using git clone, or download the source code as a zip file.
-Compilation
-To compile the Gaussian Blur application, navigate to the directory containing the source code and run the following command:
-#nvcc -o gaussianBlur main.cu `pkg-config --cflags --libs opencv4`
+
+# Compilation
+To compile the Gaussian Blur application, navigate to the directory containing the source code and run the following command: 
+
+# nvcc -o gaussianBlur main.cu `pkg-config --cflags --libs opencv4`
+
 This command compiles the CUDA code and links it with OpenCV libraries. Make sure pkg-config is set up correctly to point to your OpenCV installation.
 
 # Usage
